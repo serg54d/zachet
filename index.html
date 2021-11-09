@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Форма технической поддержки</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="main">
+				<div class="application-form">
+					<div class="application-form__container">
+						<form action="#" class="form-application">
+							<div class="form-application__body">
+								<div class="form-application__title">Техническая поддержка</div>
+								<div class="form-application__inputs inputs-application">
+									<div class="inputs-application__item">
+										<input id="name" maxlength="20" type="text" required placeholder="Имя" name="name" value="" class="application-input">
+									</div>
+									<div class="inputs-application__item">
+										<input id="email" maxlength="25" type="email" required placeholder="Почта" name="email" value="" class="application-input">
+									</div>
+									<div class="inputs-application__item">
+										<input id="phone-number" maxlength="15"  type="tel" required placeholder="Номер телефона" name="phone-number" value="" class="application-input">
+									</div>
+									<div class="inputs-application__item">
+										<input id="select-service" maxlength="25" type="text" required placeholder="Сервис" name="select-service" value="" class="application-input">
+									</div>
+								</div>
+									<textarea class="form-application__textarea" name="info" id="info" placeholder="Опишите вашу проблему"></textarea>
+									<button class="btn-form-application">Отправить заявку</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
